@@ -1,0 +1,25 @@
+{
+ "repo": "fornewid/material-motion-compose",
+ "sha": "6f8813cac0d3bfa5ecf35670ee23cb5aaa08d8d8",
+ "wrapper_gradle": "8.6",
+ "substitutions": 1,
+ "rc_before": "1",
+ "rc_after": "1",
+ "kgp_detected": "2.0.0",
+ "findings": [
+  {
+   "rule": "compose-compiler-options",
+   "severity": "error",
+   "file": "build-logic/convention/src/main/kotlin/soup/compose/material/motion/buildlogic/Compose.kt",
+   "line": 13
+  }
+ ],
+ "after_error": {
+  "what_went_wrong": "Execution failed for task ':build-logic:convention:compileKotlin'.\n> Inconsistent JVM-target compatibility detected for tasks 'compileJava' (17) and 'compileKotlin' (21).\n  \n  Consider using JVM Toolchain: https://kotl.in/gradle/jvm/toolchain\n  Learn more about JVM-target validation: https://kotl.in/gradle/jvm/target-validation ",
+  "e_lines": []
+ },
+ "before_error": {
+  "what_went_wrong": "Execution failed for task ':build-logic:convention:compileKotlin'.\n> Inconsistent JVM-target compatibility detected for tasks 'compileJava' (17) and 'compileKotlin' (21).\n  \n  Consider using JVM Toolchain: https://kotl.in/gradle/jvm/toolchain\n  Learn more about JVM-target validation: https://kotl.in/gradle/jvm/target-validation ",
+  "e_lines": []
+ }
+}

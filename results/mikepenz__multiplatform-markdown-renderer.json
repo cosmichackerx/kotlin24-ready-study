@@ -1,0 +1,12 @@
+{
+ "repo": "mikepenz/multiplatform-markdown-renderer",
+ "sha": "3647f0f7a349068065baf9bb97854ddd43389eef",
+ "wrapper_gradle": "9.7.1",
+ "substitutions": 0,
+ "rc_before": "0",
+ "rc_after": "skipped",
+ "kgp_detected": null,
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

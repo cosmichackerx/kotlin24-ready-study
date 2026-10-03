@@ -1,0 +1,12 @@
+{
+ "repo": "KevinnZou/compose-webview-multiplatform",
+ "sha": "68e76907dce8cce63516c2ef210b828b18773e94",
+ "wrapper_gradle": "8.13",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.1.20",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

@@ -1,0 +1,18 @@
+{
+ "repo": "sayaka-sh/spmp",
+ "sha": "2fb03e84fb13146cd0b619a6483e64935b6ad82d",
+ "wrapper_gradle": "9.2.0",
+ "substitutions": 1,
+ "rc_before": "1",
+ "rc_after": "1",
+ "kgp_detected": null,
+ "findings": [],
+ "after_error": {
+  "what_went_wrong": "Could not resolve all dependencies for configuration ':buildSrc:buildScriptClasspath'.\n> Could not resolve project :buildSrc.\n  Required by:\n      project ':buildSrc'\n   > Dependency requires at least JVM runtime version 23. This build uses a Java 21 JVM.",
+  "e_lines": []
+ },
+ "before_error": {
+  "what_went_wrong": "Could not resolve all dependencies for configuration ':buildSrc:buildScriptClasspath'.\n> Could not resolve project :buildSrc.\n  Required by:\n      project ':buildSrc'\n   > Dependency requires at least JVM runtime version 23. This build uses a Java 21 JVM.",
+  "e_lines": []
+ }
+}

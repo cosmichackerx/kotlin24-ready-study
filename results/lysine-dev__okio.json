@@ -1,0 +1,12 @@
+{
+ "repo": "lysine-dev/okio",
+ "sha": "4ab7768ba238b78834fb9fd76211467165e91fc2",
+ "wrapper_gradle": "9.8.0",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.2.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

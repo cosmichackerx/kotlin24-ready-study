@@ -1,0 +1,12 @@
+{
+ "repo": "JetBrains/compose-hot-reload",
+ "sha": "8f7f2a86a6c868d4ac22e99b394fe6fc02053c26",
+ "wrapper_gradle": "8.14.4",
+ "substitutions": 5,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.3.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

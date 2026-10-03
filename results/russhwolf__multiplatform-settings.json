@@ -1,0 +1,12 @@
+{
+ "repo": "russhwolf/multiplatform-settings",
+ "sha": "f95cdff42a78f44b5176b6aea9c61cedb7859811",
+ "wrapper_gradle": "8.11.1",
+ "substitutions": 3,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.1.20",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

@@ -1,0 +1,12 @@
+{
+ "repo": "kosi-libs/Kodein",
+ "sha": "4c2a4813e0077017d0bde371649141bd1e420a96",
+ "wrapper_gradle": "9.3.1",
+ "substitutions": 0,
+ "rc_before": "0",
+ "rc_after": "skipped",
+ "kgp_detected": null,
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

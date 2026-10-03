@@ -1,0 +1,31 @@
+{
+ "repo": "icerockdev/moko-resources",
+ "sha": "4a34944b9be112197f894f160e20b9c021483172",
+ "wrapper_gradle": "8.13",
+ "substitutions": 15,
+ "rc_before": "1",
+ "rc_after": "1",
+ "kgp_detected": "2.1.0",
+ "findings": [
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "samples/compose-resources-gallery/webApp/build.gradle.kts",
+   "line": 9
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "samples/kotlin-2-tests/shared/build.gradle.kts",
+   "line": 15
+  }
+ ],
+ "after_error": {
+  "what_went_wrong": "An exception occurred applying plugin request [id: 'org.jetbrains.kotlin.multiplatform']\n> Failed to apply plugin 'org.jetbrains.kotlin.multiplatform'.\n   > \u26d4 Android Gradle Plugin Version Incompatible with Kotlin Gradle Plugin\n     Kotlin Gradle Plugin <-> Android Gradle Plugin compatibility issue:\n     The applied Android Gradle Plugin version (8.3.0) is lower than the minimum supported 8.5.2.\n     Solution: Please update the Android Gradle Plugin version to at least 8.5.2.",
+  "e_lines": []
+ },
+ "before_error": {
+  "what_went_wrong": "An exception occurred applying plugin request [id: 'apple-bundle-searcher-convention']\n> Failed to apply plugin 'apple-bundle-searcher-convention'.\n   > Cannot run program \"xcrun\": Exec failed, error: 2 (No such file or directory) ",
+  "e_lines": []
+ }
+}

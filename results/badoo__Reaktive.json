@@ -1,0 +1,12 @@
+{
+ "repo": "badoo/Reaktive",
+ "sha": "9d6cb63084bdd5d1fa3261e597b5ccc3d8e9bb3b",
+ "wrapper_gradle": "8.14",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.1.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

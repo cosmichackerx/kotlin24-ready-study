@@ -1,0 +1,202 @@
+{
+ "repo": "Tencent-TDS/KuiklyUI",
+ "sha": "18252bca15c4215fb5c9a7e92013043aa3f903ba",
+ "wrapper_gradle": "7.6.3",
+ "substitutions": 6,
+ "rc_before": "0",
+ "rc_after": "1",
+ "kgp_detected": "2.0.21",
+ "findings": [
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "compose/build.1.9.22.gradle.kts",
+   "line": 50
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "compose/build.2.0.ohos.gradle.kts",
+   "line": 29
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "compose/build.2.1.21.gradle.kts",
+   "line": 33
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "compose/build.2.1.21.prefetch.gradle.kts",
+   "line": 33
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core/build.1.9.22.gradle.kts",
+   "line": 50
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core/build.2.0.21.gradle.kts",
+   "line": 57
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core/build.2.0.ohos.gradle.kts",
+   "line": 75
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core/build.2.1.21.gradle.kts",
+   "line": 57
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-annotations/build.1.9.22.gradle.kts",
+   "line": 58
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-annotations/build.2.0.21.gradle.kts",
+   "line": 58
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-annotations/build.2.0.ohos.gradle.kts",
+   "line": 63
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-annotations/build.2.1.21.gradle.kts",
+   "line": 58
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-render-web/base/build.gradle.kts",
+   "line": 39
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-render-web/h5/build.gradle.kts",
+   "line": 40
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-render-web/miniapp/build.gradle.kts",
+   "line": 38
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-wx/build.1.9.22.gradle.kts",
+   "line": 60
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-wx/build.2.0.21.gradle.kts",
+   "line": 65
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-wx/build.2.0.ohos.gradle.kts",
+   "line": 67
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "core-wx/build.2.1.21.gradle.kts",
+   "line": 65
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "demo/build.gradle.kts",
+   "line": 31
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "h5App/build.1.7.20.gradle.kts",
+   "line": 19
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "h5App/build.1.9.22.gradle.kts",
+   "line": 19
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "h5App/build.2.0.21.gradle.kts",
+   "line": 19
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "h5App/build.2.1.21.gradle.kts",
+   "line": 19
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "h5App/build.gradle.kts",
+   "line": 19
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "miniApp/build.1.9.22.gradle.kts",
+   "line": 10
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "miniApp/build.2.0.21.gradle.kts",
+   "line": 10
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "miniApp/build.2.1.21.gradle.kts",
+   "line": 10
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "miniApp/build.gradle.kts",
+   "line": 10
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "miniApp/example/KuiklyWorkWithMiniapp/miniApp/build.gradle.kts",
+   "line": 10
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "miniApp/example/KuiklyWorkWithMiniapp/shared/build.gradle.kts",
+   "line": 25
+  }
+ ],
+ "after_error": {
+  "what_went_wrong": "An exception occurred applying plugin request [id: 'org.jetbrains.kotlin.android']\n> Failed to apply plugin 'org.jetbrains.kotlin.android'.\n   > \u26d4 Android Gradle Plugin Version Incompatible with Kotlin Gradle Plugin\n     Kotlin Gradle Plugin <-> Android Gradle Plugin compatibility issue:\n     The applied Android Gradle Plugin version (7.4.2) is lower than the minimum supported 8.5.2.\n     Solution: Please update the Android Gradle Plugin version to at least 8.5.2.",
+  "e_lines": []
+ },
+ "before_error": null
+}

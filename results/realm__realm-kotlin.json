@@ -1,0 +1,12 @@
+{
+ "repo": "realm/realm-kotlin",
+ "sha": "9cdc4556f9ee05c4eb04fb94c9d3ef44fe06d652",
+ "wrapper_gradle": "7.6",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.0.20",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

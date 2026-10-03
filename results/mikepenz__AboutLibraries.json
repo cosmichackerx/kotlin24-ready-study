@@ -1,0 +1,12 @@
+{
+ "repo": "mikepenz/AboutLibraries",
+ "sha": "668f9b0ae0a12dc5643dfa3c67191a99d327364d",
+ "wrapper_gradle": "9.7.1",
+ "substitutions": 0,
+ "rc_before": "0",
+ "rc_after": "skipped",
+ "kgp_detected": null,
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

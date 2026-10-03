@@ -1,0 +1,12 @@
+{
+ "repo": "MobileNativeFoundation/Store",
+ "sha": "74a5988ff1c998055455b42509763e933a66da79",
+ "wrapper_gradle": "9.6.1",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.3.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

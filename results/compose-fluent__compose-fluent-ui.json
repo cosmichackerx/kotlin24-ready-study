@@ -1,0 +1,12 @@
+{
+ "repo": "compose-fluent/compose-fluent-ui",
+ "sha": "9e863ae958f349c9ddc9faa4299b090b87495ef4",
+ "wrapper_gradle": "8.14",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.2.0",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

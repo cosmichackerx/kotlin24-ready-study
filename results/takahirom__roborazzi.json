@@ -1,0 +1,12 @@
+{
+ "repo": "takahirom/roborazzi",
+ "sha": "bf5d35aed6296e40e64739890bb4424bbd961589",
+ "wrapper_gradle": "9.5.1",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.3.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

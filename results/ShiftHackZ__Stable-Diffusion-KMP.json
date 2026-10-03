@@ -1,0 +1,12 @@
+{
+ "repo": "ShiftHackZ/Stable-Diffusion-KMP",
+ "sha": "4b060c7e4e55e5bc94a38f239649f59a5e2183bb",
+ "wrapper_gradle": "8.13",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.3.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

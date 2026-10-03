@@ -1,0 +1,97 @@
+{
+ "repo": "GitLiveApp/firebase-kotlin-sdk",
+ "sha": "0f6f08acc1c5ba00bccd82eafecc740d2c1062d2",
+ "wrapper_gradle": "8.14.3",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.2.21",
+ "findings": [
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-analytics/build.gradle.kts",
+   "line": 123
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-app/build.gradle.kts",
+   "line": 131
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-auth/build.gradle.kts",
+   "line": 126
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-common/build.gradle.kts",
+   "line": 101
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-common-internal/build.gradle.kts",
+   "line": 102
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-config/build.gradle.kts",
+   "line": 123
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-database/build.gradle.kts",
+   "line": 125
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-firestore/build.gradle.kts",
+   "line": 134
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-functions/build.gradle.kts",
+   "line": 124
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-installations/build.gradle.kts",
+   "line": 131
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-messaging/build.gradle.kts",
+   "line": 123
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-perf/build.gradle.kts",
+   "line": 126
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "firebase-storage/build.gradle.kts",
+   "line": 125
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "test-utils/build.gradle.kts",
+   "line": 99
+  }
+ ],
+ "after_error": null,
+ "before_error": null
+}

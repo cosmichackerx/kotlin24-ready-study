@@ -1,0 +1,12 @@
+{
+ "repo": "ehsannarmani/ComposeCharts",
+ "sha": "fd706e7eafeba9989369f66b8e81a608de4b79b2",
+ "wrapper_gradle": "8.14.3",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.3.10",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

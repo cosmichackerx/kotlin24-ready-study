@@ -1,0 +1,15 @@
+{
+ "repo": "arkivanov/Decompose",
+ "sha": "53f0d01157368a36846039d5329f644094acb6e2",
+ "wrapper_gradle": "8.13",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "1",
+ "kgp_detected": "2.3.21",
+ "findings": [],
+ "after_error": {
+  "what_went_wrong": "An exception occurred applying plugin request [id: 'org.jetbrains.kotlin.js']\n> Failed to apply plugin 'org.jetbrains.kotlin.js'.\n   > \u26d4 'kotlin-js' Gradle plugin is deprecated\n     'kotlin-js' Gradle plugin is deprecated and will be removed in the future\n     Solution: Please use 'kotlin(\"multiplatform\")' plugin with a 'js()' target instead\n     See https://kotl.in/t6m3vu for more details.",
+  "e_lines": []
+ },
+ "before_error": null
+}

@@ -1,0 +1,22 @@
+{
+ "repo": "AAkira/Napier",
+ "sha": "50835e2e12a61f1175e5fce770420f72caed5b08",
+ "wrapper_gradle": "8.4",
+ "substitutions": 0,
+ "rc_before": "1",
+ "rc_after": "skipped",
+ "kgp_detected": null,
+ "findings": [
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "napier/build.gradle.kts",
+   "line": 16
+  }
+ ],
+ "after_error": null,
+ "before_error": {
+  "what_went_wrong": "Could not determine the dependencies of task ':buildSrc:compileKotlin'.\n> Unknown Kotlin JVM target: 21",
+  "e_lines": []
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "repo": "touchlab/DroidconKotlin",
+ "sha": "27f3e87c12f7fa76f74002a8443605c2ff16dabc",
+ "wrapper_gradle": "8.14.4",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "1",
+ "kgp_detected": "2.3.10",
+ "findings": [
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "shared/build.gradle.kts",
+   "line": 65
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "shared-ui/build.gradle.kts",
+   "line": 74
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "web/build.gradle.kts",
+   "line": 8
+  }
+ ],
+ "after_error": {
+  "what_went_wrong": "A problem occurred configuring project ':ios'.\n> Error: SKIE 0.10.10 does not support Kotlin 2.4.20.\n  Supported versions are: [2.0.0, 2.0.10, 2.0.20, 2.0.21, 2.1.0, 2.1.10, 2.1.20, 2.1.21, 2.2.0, 2.2.10, 2.2.20, 2.2.21, 2.3.0, 2.3.10].\n  Check if you have the most recent version of SKIE and if so, please wait for the SKIE developers to add support for this Kotlin version.\n  New Kotlin versions are usually supported within a few days after they are released.\n  Note that there are no plans for supporting early access versions like Beta, RC, etc.\n  SKIE cannot not be used until this error is resolved.\n  To proceed with the compilation, please remove or explicitly disable SKIE by adding 'skie { isEnabled = false }' to your Gradle configuration.",
+  "e_lines": []
+ },
+ "before_error": null
+}

@@ -1,0 +1,12 @@
+{
+ "repo": "kotest/kotest",
+ "sha": "e98ce3a07ff28934d7d93238fa6f573eff369b75",
+ "wrapper_gradle": "9.4.1",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.2.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

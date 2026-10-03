@@ -1,0 +1,12 @@
+{
+ "repo": "hi-manshu/kalendar",
+ "sha": "1b3c7f96b7debaa046a986579601654d9a0f0e85",
+ "wrapper_gradle": "9.3.1",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.3.20",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

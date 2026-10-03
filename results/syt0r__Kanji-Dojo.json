@@ -1,0 +1,12 @@
+{
+ "repo": "syt0r/Kanji-Dojo",
+ "sha": "f9a4aca42bf57439feccfc663662bcb4bed4e7c2",
+ "wrapper_gradle": "8.7",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.0.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

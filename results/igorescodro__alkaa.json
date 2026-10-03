@@ -1,0 +1,12 @@
+{
+ "repo": "igorescodro/alkaa",
+ "sha": "8524e062027ca8f9766cc8bf434a13ffdcbfdb97",
+ "wrapper_gradle": "9.5.1",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "0",
+ "kgp_detected": "2.3.21",
+ "findings": [],
+ "after_error": null,
+ "before_error": null
+}

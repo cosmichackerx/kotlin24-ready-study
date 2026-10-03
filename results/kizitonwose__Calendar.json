@@ -1,0 +1,39 @@
+{
+ "repo": "kizitonwose/Calendar",
+ "sha": "c2711b3c7fdf027e9a6bad55be9a7d979a288699",
+ "wrapper_gradle": "8.14.3",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "1",
+ "kgp_detected": "2.3.0",
+ "findings": [
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "compose-multiplatform/library/build.gradle.kts",
+   "line": 25
+  },
+  {
+   "rule": "js-compiler-type",
+   "severity": "warning",
+   "file": "compose-multiplatform/sample/build.gradle.kts",
+   "line": 34
+  }
+ ],
+ "after_error": {
+  "what_went_wrong": "Script compilation errors:",
+  "e_lines": [
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:9:44: Using 'AbiValidationMultiplatformExtension' is an error. The class 'AbiValidationMultiplatformExtension' was removed.",
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:10:44: Using 'AbiValidationVariantSpec' is an error. The class 'AbiValidationVariantSpec' was removed.",
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:43:25: Using 'enabled: Property<Boolean>' is an error. Property was removed, to enable ABI validation call function abiValidation(), abiValidation { ... } or read abiValidation property.",
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:44:25: Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: ",
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:48:77: Using 'AbiValidationMultiplatformExtension' is an error. The class 'AbiValidationMultiplatformExtension' was removed.",
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:51:25: Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: ",
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:83:13: Using 'AbiValidationVariantSpec' is an error. The class 'AbiValidationVariantSpec' was removed.",
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/build.gradle.kts:85:9: Using 'excluded(AbiFilterSetSpec.() -> Unit): Unit' is an error. Use 'exclude' instead",
+   "                                   ^ Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: ",
+   "                                   ^ Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: "
+  ]
+ },
+ "before_error": null
+}

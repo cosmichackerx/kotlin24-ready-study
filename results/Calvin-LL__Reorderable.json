@@ -1,0 +1,24 @@
+{
+ "repo": "Calvin-LL/Reorderable",
+ "sha": "66de5751227c440bcdbd63acc94999231ed67487",
+ "wrapper_gradle": "8.10.2",
+ "substitutions": 1,
+ "rc_before": "0",
+ "rc_after": "1",
+ "kgp_detected": "2.0.21",
+ "findings": [
+  {
+   "rule": "language-version-1-9",
+   "severity": "error",
+   "file": "reorderable/build.gradle.kts",
+   "line": 20
+  }
+ ],
+ "after_error": {
+  "what_went_wrong": "Script compilation error:",
+  "e_lines": [
+   "e: file:///home/runner/work/kotlin24-ready-study/kotlin24-ready-study/work/reorderable/build.gradle.kts:20:55: Using 'KOTLIN_1_9' is an error. Unsupported"
+  ]
+ },
+ "before_error": null
+}
