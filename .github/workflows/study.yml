@@ -1,0 +1,65 @@
+name: study
+
+# Recall / precision study for kotlin24-ready: for each public project, run the scanner and `gradle help` before and after the
+# Kotlin Gradle plugin version is raised to TARGET_KGP. Untrusted third-party build scripts run here, so this repo holds no secrets,
+# the token has no permissions, and credentials are not persisted.
+on:
+  workflow_dispatch:
+    inputs:
+      scanner_ref:
+        description: "kotlin24-ready git ref (tag or commit) to scan with"
+        default: "main"
+      target_kgp:
+        description: "Kotlin Gradle plugin version to substitute"
+        default: "2.4.20"
+
+permissions: {}
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - id: m
+        run: python3 scripts/matrix.py >> "$GITHUB_OUTPUT"
+
+  project:
+    needs: plan
+    name: ${{ matrix.repo }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6.0.1
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Install the scanner
+        env:
+          REF: ${{ inputs.scanner_ref }}
+        run: pip install "git+https://github.com/cosmichackerx/kotlin24-ready@${REF}"
+      - name: Scan and run Gradle before / after
+        env:
+          TARGET_KGP: ${{ inputs.target_kgp }}
+        run: |
+          slug="${{ matrix.repo }}"; slug="${slug//\//__}"
+          scripts/run_repo.sh "${{ matrix.repo }}" "$GITHUB_WORKSPACE/out/$slug"
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: result-${{ strategy.job-index }}
+          path: out/
+          retention-days: 30
